@@ -165,8 +165,23 @@
    inline 之后更是出现了 inline-block 这一对外呈现 inline 对内呈现 block 的属性。因此，简单地把 HTML 元素划分为
    inline 与 block 已经不再符合实际需求。
 
-   HTML5中，元素主要分为7类：Metadata Flow Sectioning Heading Phrasing Embedded Interactive
+   HTML5中，元素主要分为7类：
+   Metadata 元数据: 
+   <base>、<command>、<link>、<meta>、<noscript>、<script>、<style>、<title>
+   Flow 文档流:
+   大部分文档<body>内的元素，只有部分元数据式元素不属于流式，它们是<base>和<title>
+   Sectioning 区块: 
+   <article>、<aside>、<nav>、<section>
+   Heading 标题:
+   包括<h1>到<h6>以及<hgroup>
+   Phrasing 语句:
+   文档里的文字、在段落中标记文字的元素等
+   Embedded 内嵌:
+   包括<audio>、<canvas>、<embed>、<iframe>、<img>、<math>、<object>、<svg>和<video>九类
+   Interactive 交互:
+   包括<a>、<audio>、<button>、<details>、<embed>、<iframe>、<img>、<input>、<keygen>、<label>、<menu>、<object>、<select>、<textarea>、<video>
    ```
+   参考：[https://html.spec.whatwg.org/multipage/indices.html#element-content-categories](https://html.spec.whatwg.org/multipage/indices.html#element-content-categories)
 
 #### 10. 空元素定义
    ```
